@@ -1,0 +1,38 @@
+package demo;
+
+import interfaceDemo.InternationalRules;
+
+public class AustralianTraffic implements InternationalRules{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void greenGo() {
+		
+		System.out.println("When green, Go !");
+		
+	}
+
+	@Override
+	public void redStop() {
+		
+		System.out.println("When Red, Stop !");
+		
+	}
+
+	@Override
+	public void flashYellow() {
+		
+		System.out.println("When Flash Yellow, Start !");
+		
+	}
+	
+	public void walkSign() {
+		
+		System.out.println("When walk sign, look arround !");
+	}
+
+}
