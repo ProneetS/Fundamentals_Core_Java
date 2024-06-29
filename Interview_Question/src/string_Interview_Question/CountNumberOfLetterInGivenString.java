@@ -7,6 +7,7 @@ public class CountNumberOfLetterInGivenString {
 		//Given String is
 		String str = "Java is a programming language";
 		
+		//here counting the appearance of character "a"
 		int result  = str.length() - str.replaceAll("a", "").length();
 		System.out.println(result);
 
