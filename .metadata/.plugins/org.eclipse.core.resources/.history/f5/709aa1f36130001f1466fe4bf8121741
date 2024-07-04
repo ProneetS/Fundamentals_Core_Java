@@ -1,7 +1,0 @@
-package interfaceDemo;
-
-public interface InternationalRules {
-	public void greenGo();
-	public void redStop();
-	public void flashYellow();
-}
