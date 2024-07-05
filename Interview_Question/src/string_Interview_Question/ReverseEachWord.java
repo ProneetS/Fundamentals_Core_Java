@@ -17,7 +17,7 @@ public class ReverseEachWord {
 			//e.g. How ==> woH
 			
 			String reverseWord = "";
-			int j = word.length() - 1;
+			int j = word.length() - 1; //find the length 	1q2
 			
 			while(j >=0) {
 				char ch = word.charAt(j);

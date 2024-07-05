@@ -3,12 +3,12 @@ package other_CodingBased;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindDuplicatesUsingHashMap {
+public class FindDuplicatesNumberUsingHashMap {
 
 	public static void main(String[] args) {
 		
 		int[] numArr = {1,5,2,7,1,9,3,6,2,4,6,1};
-		FindDuplicatesUsingHashMap.findDuplicatesUsingHM(numArr);
+		FindDuplicatesNumberUsingHashMap.findDuplicatesUsingHM(numArr);
 		
 	}
 	

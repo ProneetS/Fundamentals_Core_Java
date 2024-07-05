@@ -2,12 +2,12 @@ package other_CodingBased;
 
 import java.util.Arrays;
 
-public class FindDuplicatesInArray {
+public class FindDuplicatesCharacterInArray {
 
 	public static void main(String[] args) {
 				
 		int[] numArr = {1,2,3,9,2,6,8,7,1,4,8,2};
-		FindDuplicatesInArray.sortingArray(numArr);
+		FindDuplicatesCharacterInArray.sortingArray(numArr);
 	}
 	
 	public static void sortingArray(int[] arr) {
